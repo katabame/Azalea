@@ -1,24 +1,22 @@
-# Dalamud.Divination.Template
+# Azalea
 
-📝 Template repository for Dalamud.Divination Plugins
+Azalea is a plugin for Dalamud.
 
-## How to use
+## Developmemt
 
-0. Click "Use this template" on GitHub.
-1. Open the solution, then rename "Divination.Template" project in JetBrains Rider.
-2. Replace all "Template" with the project name.
-3. Update the Common lib as desired.
+This plugin is using [Dalamud.Divination.Template](https://github.com/horoscope-dev/Dalamud.Divination.Template) as a base template.  
 
-    ```shell
-    $ git submodule foreach git pull origin master
-    $ git submodule foreach git checkout master
-    ```
+```bash
+# Clone repository (There is serval ways to clone)
+$ git clone https://github.com/katabame/Azalea.git # HTTPS
+$ git clone git@github.com:katabame/Azalea.git # SSH
+$ gh repo clone katabame/Azalea # GitHub CLI
 
-4. Edit `.github/workflows/build.yml` and put `GH_PAT` (with "repo:public_repo" scope) in repository secrets setting.
-5. Start coding!
+# Move into cloned repository direcotry
+$ cd ./Azalea/
 
-## Plugin Repository
+# Initialize and Update horoscope-dev/Divination submodule(s)
+$ git submodule update --init --recursive
 
-This repository will be automatically built and published to the [plugin repository](https://github.com/SlashNephy/Dalamud.DivinationPluginRepo).
-
-Plugins are published to the stable repository when a release tag is created, and to the testing repository when a commit is pushed to the `master` branch.
+# Now you are ready to code!
+```
