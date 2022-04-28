@@ -7,7 +7,7 @@ namespace Divination.Template
     {
         public override void Draw()
         {
-            if (ImGui.Begin($"{TemplatePlugin.Instance.Name} Config", ref IsOpen, ImGuiWindowFlags.NoResize | ImGuiWindowFlags.AlwaysAutoResize))
+            if (ImGui.Begin("Azalea Config", ref IsOpen, ImGuiWindowFlags.NoResize | ImGuiWindowFlags.AlwaysAutoResize))
             {
                 ImGui.Text("This is config window.");
 

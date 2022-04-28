@@ -1,0 +1,14 @@
+{
+  "Author": "katabame",
+  "Name": "Azalea",
+  "Punchline": "Azalea is a plugin for Dalamud.",
+  "Description": "/azalea to get started",
+  "Tags": [],
+  "CategoryTags": [],
+  "IsHide": false,
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 6,
+  "LoadPriority": 0,
+  "ImageUrls": [],
+  "IconUrl": null
+}

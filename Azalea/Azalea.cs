@@ -8,13 +8,13 @@ using Dalamud.Plugin;
 
 namespace Divination.Template
 {
-    public sealed class TemplatePlugin : DivinationPlugin<TemplatePlugin, PluginConfig, PluginDefinition>,
+    public sealed class Azalea : DivinationPlugin<Azalea, PluginConfig, PluginDefinition>,
         IDalamudPlugin,
         ICommandSupport,
         IConfigWindowSupport<PluginConfig>,
         IDefinitionSupport
     {
-        public TemplatePlugin(DalamudPluginInterface pluginInterface) : base(pluginInterface)
+        public Azalea(DalamudPluginInterface pluginInterface) : base(pluginInterface)
         {
             PluginLog.Information("Plugin loaded!");
         }
